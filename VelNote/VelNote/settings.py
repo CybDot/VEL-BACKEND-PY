@@ -27,6 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://5237-150-107-106-6.ngrok-free.app',  # Replace with your current Ngrok URL
+]
+
 
 # Application definition
 
